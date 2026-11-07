@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env
+
+# Reports
+reports/*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
