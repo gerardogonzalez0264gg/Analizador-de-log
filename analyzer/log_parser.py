@@ -2,7 +2,7 @@ import re
 
 
 def parse_log_line(line):
-    """Extract relevant information from a log entry."""
+    """Extrae información relevante de una entrada del registro."""
 
     ip_match = re.search(r"\b(?:\d{1,3}\.){3}\d{1,3}\b", line)
 
