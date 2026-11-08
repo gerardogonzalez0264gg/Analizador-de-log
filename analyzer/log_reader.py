@@ -1,6 +1,6 @@
 def read_log_file(file_path):
     """
-    Read a log file and return its lines.
+    Lee un archivo de registro y devuelve sus líneas.
     """
     try:
         with open(file_path, "r", encoding="utf-8", errors="replace") as file:
