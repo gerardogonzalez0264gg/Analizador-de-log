@@ -40,8 +40,8 @@ LOG-ANALYZER/
 Clonar el repositorio:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
-cd LOG-ANALYZER
+git clone https://github.com/gerardogonzalez0264gg/Analizador-de-log
+cd Analizador-de-log
 ```
 
 Crear y activar un entorno virtual:
