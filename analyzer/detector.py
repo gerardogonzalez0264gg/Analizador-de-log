@@ -1,5 +1,5 @@
 def detect_suspicious_activity(events, threshold=2):
-    """Detect IP addresses with repeated failed login attempts."""
+    """Detecta direcciones IP con múltiples intentos fallidos de inicio de sesión."""
 
     failed_attempts = {}
 
@@ -19,8 +19,7 @@ def detect_suspicious_activity(events, threshold=2):
             alerts.append({
                 "ip": ip,
                 "failed_attempts": attempts,
-                "alert": "Multiple failed login attempts"
+                "alert": "Múltiples intentos fallidos de inicio de sesión"
             })
 
     return alerts
-    
